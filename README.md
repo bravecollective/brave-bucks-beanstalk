@@ -8,6 +8,8 @@ $ eb init
     choose platform Docker
 $ eb create --single -i t3a.micro
 ```
+Then add environment variables.
+
 
 Update:
 ```
