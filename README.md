@@ -1,15 +1,12 @@
-Deploy **Brave Bucks** Docker container to AWS Beanstalk.
-
-https://hub.docker.com/r/bravecollective/brave-bucks
+Deploy **[Brave Bucks](https://github.com/bravecollective/brave-bucks)** to AWS Beanstalk.
 
 Create:
 ```
 $ eb init
-    choose platform Docker
+    choose platform Corretto 8
 $ eb create --single -i t3a.micro
 ```
 Then add environment variables.
-
 
 Update:
 ```
