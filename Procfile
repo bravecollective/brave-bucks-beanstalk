@@ -1,1 +1,1 @@
-web: java -jar ./braveBucks.war --server.port=80
+web: java -jar ./braveBucks.war

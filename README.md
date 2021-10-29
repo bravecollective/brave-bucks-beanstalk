@@ -6,7 +6,8 @@ $ eb init
     choose platform Corretto 8
 $ eb create --single -i t3a.micro
 ```
-Then add environment variables.
+
+Then add environment variables, use port 5000.
 
 Update:
 ```
